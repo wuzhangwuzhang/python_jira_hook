@@ -1,0 +1,1 @@
+[{"domain": "jira-pro.uuzu.com", "httpOnly": true, "name": "JSESSIONID", "path": "/", "sameSite": "Lax", "secure": true, "value": "B4381B60B2E0BD80BF22D00F48568CD9"}, {"domain": "jira-pro.uuzu.com", "httpOnly": false, "name": "atlassian.xsrf.token", "path": "/", "sameSite": "Lax", "secure": true, "value": "BZYY-7U3D-CJAT-KDTP_6ec69af3ebdaecc3f804cf8855477eff0b2aa77e_lout"}]
