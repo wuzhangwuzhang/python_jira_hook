@@ -174,8 +174,8 @@ if __name__ == "__main__":
     #jira.transition_issue(issue, transition='21')
     # print(issue.fields.status)  # 打印status,注意这里的状态是一开始的状态。分析：可能是close()之后才生效
     # print(issue.fields.issuetype)  # Task
-    commmentLog = "[git提交查看1|https://gitlab.uuzu.com/xiyou/workspace/-/merge_requests/8892]"
-    jira.add_comment(issue, commmentLog)  # 添加评论
+    # commmentLog = "[git提交查看1|https://gitlab.uuzu.com/xiyou/workspace/-/merge_requests/8892]"
+    # jira.add_comment(issue, commmentLog)  # 添加评论
 
 
 
