@@ -1,0 +1,24 @@
+ERROR 2023-09-21 13:16:40,207 - [python] 参数不对
+ERROR 2023-09-21 13:17:41,562 - [python] 参数不对
+ERROR 2023-09-21 13:40:16,093 - [python] 参数不对
+ERROR 2023-09-21 13:40:20,507 - [python] 参数不对
+ERROR 2023-09-21 13:40:44,119 - [python] 参数不对
+DEBUG 2023-09-21 13:42:42,545 - Starting new HTTPS connection (1): jira-pro.uuzu.com:443
+DEBUG 2023-09-21 13:42:42,697 - https://jira-pro.uuzu.com:443 "GET /rest/api/2/serverInfo HTTP/1.1" 200 None
+DEBUG 2023-09-21 13:42:43,847 - https://jira-pro.uuzu.com:443 "GET /rest/api/2/issue/SLPK-19897 HTTP/1.1" 200 None
+DEBUG 2023-09-21 13:51:37,372 - Starting new HTTPS connection (1): jira-pro.uuzu.com:443
+DEBUG 2023-09-21 13:51:37,444 - https://jira-pro.uuzu.com:443 "GET /rest/api/2/serverInfo HTTP/1.1" 200 None
+DEBUG 2023-09-21 13:51:42,931 - https://jira-pro.uuzu.com:443 "GET /rest/api/2/issue/SLPK-19897 HTTP/1.1" 200 None
+DEBUG 2023-09-21 13:55:16,179 - Resetting dropped connection: jira-pro.uuzu.com
+DEBUG 2023-09-21 13:55:16,247 - https://jira-pro.uuzu.com:443 "GET /rest/api/2/field HTTP/1.1" 200 None
+DEBUG 2023-09-21 13:58:43,489 - Starting new HTTPS connection (1): jira-pro.uuzu.com:443
+DEBUG 2023-09-21 13:58:43,587 - https://jira-pro.uuzu.com:443 "GET /rest/api/2/serverInfo HTTP/1.1" 200 None
+DEBUG 2023-09-21 13:58:43,643 - https://jira-pro.uuzu.com:443 "GET /rest/api/2/issue/SLPK-19897 HTTP/1.1" 200 None
+DEBUG 2023-09-21 13:58:43,917 - https://jira-pro.uuzu.com:443 "POST /rest/api/2/issue/SLPK-19897/comment HTTP/1.1" 201 None
+DEBUG 2023-09-21 14:00:08,759 - Starting new HTTPS connection (1): jira-pro.uuzu.com:443
+DEBUG 2023-09-21 14:00:08,793 - https://jira-pro.uuzu.com:443 "GET /rest/api/2/serverInfo HTTP/1.1" 200 None
+DEBUG 2023-09-21 14:00:08,808 - https://jira-pro.uuzu.com:443 "GET /rest/api/2/issue/SLPK-19897 HTTP/1.1" 401 None
+DEBUG 2023-09-21 14:00:51,659 - Starting new HTTPS connection (1): jira-pro.uuzu.com:443
+DEBUG 2023-09-21 14:00:51,740 - https://jira-pro.uuzu.com:443 "GET /rest/api/2/serverInfo HTTP/1.1" 200 None
+DEBUG 2023-09-21 14:00:51,790 - https://jira-pro.uuzu.com:443 "GET /rest/api/2/issue/SLPK-19897 HTTP/1.1" 200 None
+DEBUG 2023-09-21 14:00:52,051 - https://jira-pro.uuzu.com:443 "POST /rest/api/2/issue/SLPK-19897/comment HTTP/1.1" 201 None

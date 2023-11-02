@@ -16,13 +16,18 @@ s_feishu_robot = {
     "SLPKBugRobotTest": {
         "url": "https://open.feishu.cn/open-apis/bot/v2/hook/30c64c00-0394-4158-ad45-1461a6fb4359",
         "sign": "xDWcGOgJf17LaTMOL1jtZf",
-        "group_name": "测试"
+        "group_name": "C#提交检查通知"
     },
      "SLPKBugRobot": {
          "url": "https://open.feishu.cn/open-apis/bot/v2/hook/aec8820d-4d11-4f8f-9acd-34c3ee26d385",
          "sign": "thS4xmPbea2QDmAOceJfoh",
          "group_name": "thS4xmPbea2QDmAOceJfoh"
-     }
+     },
+    "SLPKFeiShuTest":{
+        "url": "https://open.feishu.cn/open-apis/bot/v2/hook/ffae95a0-8f41-4aac-bc40-f294fc4d513b",
+        "sign": "C3eIwFbfAQMin7J0xfpSOh",
+        "group_name": "飞书通知测试"
+    }
 
 }
 
@@ -75,7 +80,7 @@ class FeiShu(object):
 
 def main():
     feishu_xlsx2lua = FeiShu("Xlsx2LuaRobot")
-    feishu_xlsx2lua.set_at_users("gull","linych").send("he he")
+    # feishu_xlsx2lua.set_at_users("gull","linych").send("he he")
 
 if __name__ == '__main__':
     robot = FeiShu("SLPKBugRobotTest")
